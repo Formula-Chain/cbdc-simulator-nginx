@@ -15,3 +15,5 @@ RUN chmod +x /docker-entrypoint.sh
 
 # Set the entrypoint
 ENTRYPOINT ["/docker-entrypoint.sh"]
+
+EXPOSE 80
